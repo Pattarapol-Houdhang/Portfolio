@@ -7,7 +7,7 @@ import { MenuBarComponent } from './menu-bar/menu-bar.component';
 import { IntroductionComponent } from './introduction/introduction.component';
 import { MyportfolioComponent } from './myportfolio/myportfolio.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
-
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +18,8 @@ import { WorkExperienceComponent } from './work-experience/work-experience.compo
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
