@@ -1,13 +1,19 @@
 .content {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   margin-bottom: 50px;
 }
 .content > * {
   flex: 1 1;
 }
 .profilepic {
-  width: 500px;
-  height: 500px;
   background-color: white;
+}
+
+@media (max-width: 1000px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
 }
