@@ -2,11 +2,13 @@
 * {
   margin: 0;
   padding: 0;
-}
-
+} 
+html,
 body {
   background-image: url("src\assets\images\cement-background-texture-gray-wall.jpg");
+  /* overflow: hidden;  */
   height: 100%;
+  margin: 0;
   background-repeat: no-repeat;
   background-size: cover;
 }

@@ -3,10 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MenuBarComponent } from './menu-bar/menu-bar.component';
-import { IntroductionComponent } from './introduction/introduction.component';
+import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
+import { IntroductionComponent } from './components/introduction/introduction.component';
 import { MyportfolioComponent } from './myportfolio/myportfolio.component';
-import { WorkExperienceComponent } from './work-experience/work-experience.component';
+import { WorkExperienceComponent } from './components/work-experience/work-experience.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 @NgModule({
   declarations: [
